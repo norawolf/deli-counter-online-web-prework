@@ -36,3 +36,7 @@ class Deli
     end
     end
 end
+
+new_deli = Deli.new
+ new_deli.take_a_number([])
+ #new_deli.take_a_number(???) 
