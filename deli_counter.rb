@@ -36,7 +36,7 @@ class Deli
     end
     end
 end
-
+binding.pry
 new_deli = Deli.new
  new_deli.take_a_number([])
  #new_deli.take_a_number(???) 
