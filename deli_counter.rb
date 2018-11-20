@@ -24,6 +24,7 @@ class Deli
     katz_deli << @@ticket_dispenser
     puts "Welcome, your ticket number is #{@@ticket_dispenser} and you are number #{katz_deli.length} in line."
     @@ticket_dispenser += 1
+    katz_deli
     end
 
     def now_serving(katz_deli)
